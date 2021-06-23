@@ -88,7 +88,7 @@
 <body>
 <!--&lt;!&ndash;更改为你女朋友的头像&ndash;&gt;-->
 <div class="cs">
-    <img src="http://wx1.sinaimg.cn/large/006gFOhdly1fr0hdrzlolj30b40b4dg7.jpg" id="logo">
+    <img src="https://photos.google.com/search/_tra_/photo/AF1QipNGSIFCNI7nhC7osl6QBntySLWYEtbs7zGPLN9a" id="logo">
 </div>
 <canvas class="canvas" width="1820" height="905"></canvas>
 <p class="text" style="color: #ed3073;">
@@ -99,7 +99,7 @@
 <script language="javascript">
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
-        BirthDay = new Date("09/21/1992 00:00:00");//这个日期是可以修改的
+        BirthDay = new Date("06/25/2004 00:00:00");//这个日期是可以修改的
         today = new Date();
         timeold = (today.getTime() - BirthDay.getTime());
         sectimeold = timeold / 1000
@@ -122,7 +122,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
             //想说的话
-            S.UI.simulate("亲爱的|生日快乐哟|#countdown 3|#rectangle 15x15|#circle 12 |#time");
+            S.UI.simulate("小娜娜|生日快乐哟|#countdown 3|#rectangle 15x15|#circle 12 |#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
